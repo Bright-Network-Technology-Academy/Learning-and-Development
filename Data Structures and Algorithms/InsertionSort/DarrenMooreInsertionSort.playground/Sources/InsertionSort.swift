@@ -12,7 +12,7 @@ public func InsertionSort<Element: Comparable>(_ unsortedArray: [Element]) -> [E
     for index in 1 ..< array.count {
         var currentIndex = index
         
-        while currentIndex > 0 && array[currentIndex - 1] > array[currentIndex] {
+        while array[currentIndex - 1] > array[currentIndex] && currentIndex > 0 {
             array.swapAt(currentIndex - 1, currentIndex)
             currentIndex -= 1
         }
