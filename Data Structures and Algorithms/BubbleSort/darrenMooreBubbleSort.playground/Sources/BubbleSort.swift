@@ -16,10 +16,7 @@ public func BubbleSort<Element: Comparable>(_ unsortedArray: [Element]) -> [Elem
         for index in 1 ..< array.count - numberOfRepeats {
     
             if array[index - 1] > array[index] {
-                let temp = array[index - 1]
-                array[index - 1] = array[index]
-                array[index] = temp
-                
+                array.swapAt(index - 1, index)
                 swaps = true
             }
         }
