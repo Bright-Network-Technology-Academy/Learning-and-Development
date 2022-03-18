@@ -6,4 +6,4 @@ If you would like to upload any of the courses, challenges or video tutorials yo
 
 If you add any files can you please follow the below naming convention so any courses/tutorials/challenges you complete will be grouped together by your name (excluding the brackets):
 
-- firstnameLastname(Challenge/Course/Tutorial)name.fileextension
+- FirstnameLastname(Challenge/Course/Tutorial)name.fileextension
