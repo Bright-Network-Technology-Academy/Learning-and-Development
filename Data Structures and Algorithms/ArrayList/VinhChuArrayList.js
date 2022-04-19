@@ -61,4 +61,5 @@ x.add(3);
 x.add(2);
 x.add(1);
 
+// require the + '' to make it look like an array when you console log
 console.log(x + '');
